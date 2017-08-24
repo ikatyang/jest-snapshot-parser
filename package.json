@@ -1,0 +1,53 @@
+{
+  "name": "jest-snapshot-parser",
+  "version": "1.0.0",
+  "description": "parse jest snapshot content (*.snap file)",
+  "keywords": [
+    "jest",
+    "jest-snapshot",
+    "parse",
+    "snap"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/ikatyang/jest-snapshot-parser",
+  "homepage": "https://github.com/ikatyang/jest-snapshot-parser#readme",
+  "author": {
+    "name": "Ika",
+    "email": "ikatyang@gmail.com",
+    "url": "https://github.com/ikatyang"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "yarn run build",
+    "lint": "tslint -p ./tsconfig.json --type-check",
+    "test": "jest -c ./jest.json",
+    "prebuild": "rm -rf ./lib",
+    "build": "tsc -p tsconfig.build.json",
+    "release": "standard-veresion",
+    "snap-fixture": "jest ./fixtures/test.js"
+  },
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/jest": "20.0.8",
+    "@types/node": "8.0.24",
+    "jest": "20.0.4",
+    "prettier": "1.5.3",
+    "prettier-config-ikatyang": "1.1.1",
+    "standard-version": "4.2.0",
+    "ts-jest": "20.0.10",
+    "tslint": "5.6.0",
+    "tslint-config-ikatyang": "2.2.0",
+    "tslint-config-prettier-ext": "1.5.0",
+    "tslint-plugin-prettier": "1.1.0",
+    "typescript": "2.4.2"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "files": [
+    "/lib/**/*"
+  ]
+}

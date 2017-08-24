@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should throw error with invalid snapshot header 1`] = `"Unexpected snapshot content, there is no snapshot header"`;
+
+exports[`should throw error with unexpected snapshot version 1`] = `"Unexpected snapshot version: v0"`;

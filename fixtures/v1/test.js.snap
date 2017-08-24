@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`boolean false 1`] = `false`;
+
+exports[`boolean true 1`] = `true`;
+
+exports[`null null 1`] = `null`;
+
+exports[`number simple 1`] = `123`;
+
+exports[`string multi-line backslash 1`] = `
+"\\\\first\\\\
+\\\\second\\\\
+\\\\third\\\\"
+`;
+
+exports[`string multi-line backtick 1`] = `
+"\`first\`
+\`second\`
+\`third\`"
+`;
+
+exports[`string multi-line double-quote 1`] = `
+"\\"first\\"
+\\"second\\"
+\\"third\\""
+`;
+
+exports[`string multi-line simple 1`] = `
+"first
+second
+third"
+`;
+
+exports[`string multi-line template-token 1`] = `
+"\${first\${
+\${second\${
+\${third\${"
+`;
+
+exports[`string single-line backslash 1`] = `"\\\\backslash\\\\"`;
+
+exports[`string single-line backtick 1`] = `"\`backtick\`"`;
+
+exports[`string single-line double-quote 1`] = `"\\"double-quote\\""`;
+
+exports[`string single-line simple 1`] = `"simple"`;
+
+exports[`string single-line template-token 1`] = `"\${template-token\${"`;
+
+exports[`undefined undefined 1`] = `undefined`;
