@@ -24,7 +24,7 @@
     "test": "jest -c ./jest.json",
     "prebuild": "rm -rf ./lib",
     "build": "tsc -p tsconfig.build.json",
-    "release": "standard-veresion",
+    "release": "standard-version",
     "snap-fixture": "jest ./fixtures/test.js"
   },
   "dependencies": {
