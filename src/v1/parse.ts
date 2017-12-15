@@ -17,7 +17,9 @@ function parse(value: string): ParsedValue {
   } catch (error) {
     // istanbul ignore next
     throw new Error(
-      `Unexpected error while parsing:\n\n>>> start >>>\n${reverted_value}\n<<< end <<<\n\n${error.message}`,
+      `Unexpected error while parsing:\n\n>>> start >>>\n${reverted_value}\n<<< end <<<\n\n${
+        error.message
+      }`,
     );
   }
 }
